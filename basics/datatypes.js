@@ -2,9 +2,9 @@
 
 // alert(3 + 3) // we are using node.js not browser
 
-console.log(3 
-    + 
-    3) // code readebility should be high
+// console.log(3 
+//     + 
+//     3) // code readebility should be high
 console.log("Siddesh")
 
 let num = 53 // Number data-type => 2 to 2 power 53
@@ -15,8 +15,8 @@ let loggedIN = false // boolean
 let state; // undefined (Value not assigned)
 //Symbol => For unique 
 
-console.log(typeof undefined)//Output = undefined
-console.log(typeof null) // output = object
+// console.log(typeof undefined)//Output = undefined
+// console.log(typeof null) // output = object
 
 // primitive ,
 // 7 - types: String,Number,Boolean,null,undefined,Symbol,BigInt
@@ -24,17 +24,17 @@ console.log(typeof null) // output = object
 // Reference (Non-Primitive)
 // Arrays,Objects,Functions
 
-const arr = ['Shakthiman', 'Chota Bheem']
+// const arr = ['Shakthiman', 'Chota Bheem']
 
-const MyObj = {
-    name : "Siddesh G H",
-    age : 22,
-}
+// const MyObj = {
+//     name : "Siddesh G H",
+//     age : 22,
+// }
 
-const MyFunc = function(){
-    console.log("Hello World");
-}
+// const MyFunc = function(){
+//     console.log("Hello World");
+// }
 
-console.log(typeof MyObj);
-console.log(typeof MyFunc);
-console.log(typeof arr);
+// console.log(typeof MyObj);
+// console.log(typeof MyFunc);
+// console.log(typeof arr);
