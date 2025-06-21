@@ -14,8 +14,20 @@ const name1 = new String("Siddesh G H") // declaring by calling constructor and 
 // const anotherStr = "         Danesh          "
 // console.log(anotherStr.trim());
 
-const str = name1.split(" ") // same as python returnes an array after splitting
-console.log(str);
+// const str = name1.split(" ") // same as python returnes an array after splitting
+// console.log(str);
+
+const URL = "https://siddesh.com/siddesh G H"
+
+// according to url conversition
+
+console.log(URL.replace(" ", "%20"));
+
+//Some important Yes or No methods
+
+console.log(URL.includes("Siddesh"));
+
+
 
 
 
