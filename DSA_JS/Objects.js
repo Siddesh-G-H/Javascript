@@ -5,18 +5,18 @@
 
 // JS objects are same as py Dictionaries
 
-const mySym = Symbol("Key1")
+// const mySym = Symbol("Key1")
 
-const User = {
-    name: "Siddesh", // self considered name as string
-    age: 18,
-    email: "Siddesh@google.com",
-    [mySym]: "SymbolKey",
-    mySym: "StringKey",
-    "full name": "Siddesh Gowda",// value can be array,object,anything
-    IsLoggedIN: false,
-    LastAcces: ["Monday", "Sunday"]
-}
+// const User = {
+//     name: "Siddesh", // self considered name as string
+//     age: 18,
+//     email: "Siddesh@google.com",
+//     [mySym]: "SymbolKey",
+//     mySym: "StringKey",
+//     "full name": "Siddesh Gowda",// value can be array,object,anything
+//     IsLoggedIN: false,
+//     LastAcces: ["Monday", "Sunday"]
+// }
 // Accessing val in object has two approach one is by operatpr [], another is by '.' operator
 
 //but best is []
@@ -94,3 +94,31 @@ const User = {
 // To check if a key is present or not
 // console.log(User.hasOwnProperty('time'));
 
+// const Course = {
+//     email: "Siddesh@gmail.com",
+//     phNO: "6362786890",
+//     price: "999",
+//     courseInstructor: "Siddesh"
+// }
+
+// To access Course Instructoe we can use
+//console.log(Course.courseInstructor);
+
+// Or
+
+// const {courseInstructor} = Course
+
+// console.log(courseInstructor); // Accessed by creating it as a seperate object
+
+// Or
+
+// const {courseInstructor: Instructor}  = Course // it tells courseInstructor as Instructor
+
+// console.log(Instructor);
+
+// {
+//     "name":"Gagan",
+//     "age": "25",            // Json is similar to object which is recived from bsckend server
+//     "Cgpa": "8.55",         // During API call
+// }
+ //OR JSON can be array of objects
